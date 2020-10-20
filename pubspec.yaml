@@ -1,14 +1,17 @@
 name: dropbox_integration
-description: A new Flutter package project.
+description: Integrate Dropbox with you app easly
 version: 0.0.1
-author:
-homepage:
+author: Marchacio<marchacio03@gmail.com>
+homepage: https://github.com/marchacio/dropbox_integration
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0 <2.0.0"
 
 dependencies:
+  dropbox_client: ^0.7.1
+  http: ^0.12.2
+  
   flutter:
     sdk: flutter
 
